@@ -1,0 +1,44 @@
+body {
+    background-color: #b7b7b7;
+}
+
+.produk-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.kartu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #616161;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.harga {
+    font-weight: bold;
+    color: #2ecee0;
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h3 {
+    color: white;
+}
